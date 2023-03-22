@@ -129,3 +129,94 @@ ul
 {
     line-height: 2.8;/*separa todos los ul del footer verticalmente*/
 }
+
+
+/*STUDIES*/
+.studiesMain
+{
+    background: url('./IMAGENES/estudios.jpg') no-repeat center center/cover;
+    margin-bottom: 50px;
+}
+.studies
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 20px;
+}
+
+.studiesMain h2
+{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.studies ul
+{
+    margin: 0 auto;
+}
+
+.studiesMain ul li
+{
+    line-height: 2.8;/*separa todos los ul del footer verticalmente*/
+}
+
+/*PERSONAL REFERENCES*/
+.personalReferencesMain
+{
+    background: url('./IMAGENES/personal.jpg') no-repeat center center/cover;
+    margin-bottom: 50px;
+}
+.personalReferences
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 20px;
+}
+
+.personalReferencesMain h2
+{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.personalReferences ul
+{
+    margin: 0 auto;
+}
+
+.personalReferencesMain ul li
+{
+    line-height: 2.8;/*separa todos los ul del footer verticalmente*/
+}
+
+/*WORD REFERENCES*/
+.workReferencesMain
+{
+    color: white;
+    background: url('./IMAGENES/laboral.jpg') no-repeat center center/cover;
+    margin-bottom: 50px;
+}
+.workReferences
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 20px;
+}
+
+.workReferencesMain h2
+{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.workReferences ul
+{
+    margin: 0 auto;
+}
+
+.workReferencesMain ul li
+{
+    line-height: 2.8;/*separa todos los ul del footer verticalmente*/
+    color: white;
+}
+
